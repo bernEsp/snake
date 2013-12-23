@@ -45,7 +45,6 @@ class Movement
   end
 
   def move
-    puts "original              | result             \n "
-    puts "#{@matrix}            |                       #{result}"
+    "original              | result             \n #{@matrix}            |                       #{result}"
   end
 end
