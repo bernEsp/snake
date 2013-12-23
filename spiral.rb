@@ -1,4 +1,4 @@
-require '~/canino_projects/movement'
+require "#{File.dirname(__FILE__)}/movement"
 class Spiral < Movement
   
   def setup

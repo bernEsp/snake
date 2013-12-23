@@ -1,7 +1,7 @@
-require '~/canino_projects/vertical'
-require '~/canino_projects/horizontal'
-require '~/canino_projects/spiral'
-require 'benchmark'
+require "#{File.dirname(__FILE__)}/vertical"
+require "#{File.dirname(__FILE__)}/horizontal"
+require "#{File.dirname(__FILE__)}/spiral"
+require "benchmark"
 class SnakeGame
   def play
     size = space_width
