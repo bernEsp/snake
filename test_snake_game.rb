@@ -2,7 +2,7 @@ require 'minitest/autorun'
 require '~/canino_projects/snake/snake_game'
 class TestSnakeGame < Minitest::Test
   def setup
-    @size = 2
+    @order = 2
     @snake_game = SnakeGame.new
   end
 
